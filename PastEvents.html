@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="./images/favicon.ico">
+
+
+    <style>
+        .pink-btn {
+            background-color: rgb(219, 16, 112);
+            border-color: pink;
+        }
+
+        .bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: rgb(219, 16, 112);
+        }
+
+        .arrow-btn {
+            border: none;
+            background-color: transparent;
+            font-size: 4rem;
+            justify-content: right;
+        }
+
+        .logo {
+            height: 50px;
+        }
+
+
+
+
+        .arrow-btn {
+
+            color: #f9f9f9;
+            text-decoration: none;
+            background-color: transparent;
+
+        }
+
+        .barh2 {
+            color: #f9f9f9;
+            font-size: 50px;
+
+
+
+        }
+
+        a {
+
+            color: #f8f9fa;
+            text-decoration: none;
+            display: flex;
+            justify-content:right ;
+            align-items: ;
+        }
+
+        .pink-btn {
+            color: #f9f9f9;
+        }
+
+        body {
+            background-image: url(./images/bbblurry.svg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .card {
+            display: flex;
+            justify-content: flex-start;
+            align-items: end;
+
+
+        }
+
+        card-img-top {}
+    </style>
+
+    <title>Amazing Events</title>
+</head>
+<nav>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-sm-2 text-center">
+                <img class="logo" src="./images/LogoAmazingEvents.png" alt="Logo">
+            </div>
+            <div class="col-sm-10 d-flex justify-content-center">
+                <a href="index.html" class="btn pink-btn mx-3">Home</a>
+                <a href="UpcomingEvents.html" class="btn pink-btn mx-3">Upcoming Admin Events</a>
+                <a href="PastEvents.html" class="btn pink-btn mx-3">Past Events</a>
+                <a href="Contact.html" class="btn pink-btn mx-3">Contact</a>
+                <a href="Stats.html" class="btn pink-btn mx-3">Stats</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bar">
+        <a href="UpcomingEvents.html" class="arrow-btn">←</a>
+    
+        <h2 class="homebar2">PAST EVENTS</h2>
+        <a href="Contact.html" class="arrow-btn">→</a>
+    </div>
+</nav>
+
+
+<body>
+    <div class="container-fluid">
+
+        <div style="display: flex; justify-content: space-between;">
+            <div style="display: flex;">
+                <div style="margin-right: 10px;">
+                    <input type="checkbox" id="category1">
+                    <label for="category1">Category 1</label>
+                </div>
+                <div style="margin-right: 10px;">
+                    <input type="checkbox" id="category2">
+                    <label for="category2">Category 2</label>
+                </div>
+                <div style="margin-right: 10px;">
+                    <input type="checkbox" id="category3">
+                    <label for="category3">Category 3</label>
+                </div>
+                <div style="margin-right: 10px;">
+                    <input type="checkbox" id="category4">
+                    <label for="category4">Category 4</label>
+                </div>
+                <div style="margin-right: 10px;">
+                    <input type="checkbox" id="category5">
+                    <label for="category5">Category 5</label>
+                </div>
+            </div>
+            <div>
+                <input type="text" placeholder="Search...">
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/Marathon.jpg" alt="Card 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Marathon</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, amet
+                                autem, consectetur in, non corporis odio laudantium quod voluptas quia temporibus.
+                                Aspernatur libero rem laudantium veritatis fugit dolorum necessitatibus sapiente?</p>
+                            <p class="text2">
+                                $1000
+                            </p>
+                            <a href="#" class="btn btn-primary">view more details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/Museum_Tour.jpg" alt="Card 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Museum Tour</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod sequi
+                                quasi pariatur enim repellendus aspernatur obcaecati voluptatibus ad assumenda repellat
+                                quia maxime quaerat, ipsum quam velit, vel harum, facilis labore. </p>
+                            <p class="text2">
+                                <price1>$1000</price1>
+                            </p>
+                            <a href="#" class="btn btn-primary">view more details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/images/Cinema.jpg" alt="Card 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Cinema</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                                dolores unde deserunt totam in voluptatem at iure debitis laborum voluptate incidunt
+                                repellendus fugiat quasi, possimus odio ratione! Architecto, quia expedita? Lorem ipsum
+                                dolor sit amet consectetur adipisicing elit. </p>
+                            <p class="text2">
+                                <price1>$1000</price1>
+                            </p>
+                            <a href="#" class="btn btn-primary">view more details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/Music_Concert.jpg" alt="Card 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Music Concert</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente a
+                                quasi voluptate commodi perspiciatis quae illo recusandae fugiat ducimus reprehenderit
+                                ea eveniet nemo distinctio libero harum totam veritatis, facere voluptas?Lorem ipsum
+                                dolor sit,</p>
+                            <p class="text2">
+                                <price1>$1000</price1>
+                            </p>
+                            <a href="#" class="btn btn-primary">view more details</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
