@@ -6,10 +6,11 @@
 
 .bar {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
     padding: 1rem 2rem;
     background-color: rgb(219, 16, 112);
+    display: flex;
+     justify-content: space-between;
 }
 
 .arrow-btn {
@@ -36,9 +37,12 @@
 
 }
 
-.barh2 {
+.homebar2 {
     color: #f9f9f9;
     font-size: 50px;
+    display: flex;
+    align-items:center
+
 
 
 
@@ -50,7 +54,7 @@ a {
     text-decoration: none;
     display: flex;
     justify-content: right;
-    align-items: ;
+    align-items:center ;
 }
 
 .pink-btn {
@@ -78,6 +82,8 @@ footer {
         display: flex;
         margin-top: auto;
         padding: 10px 20px;
+        display: flex;
+     justify-content: space-between;
         
       }
 
@@ -116,12 +122,12 @@ footer {
       .btn-info btn-block{
         background-color: black;
       }
-.main-stats{
+.maincont{
         height: 77vh;
         border: solid #000102;
     }
     
-.container-table{
+.containertabla{
         display: flex;
         justify-content: center;       
        
@@ -150,5 +156,155 @@ table{
         background-color: #f9f9f9;
     }
 
+.bar2 {
+        color: #f9f9f9;
+        font-size: 50px;
+        display: flex;
+        align-items:center
+}
+
+.barradet {
+    display: flex;
+    
+    padding: 1rem 2rem;
+    background-color: rgb(219, 16, 112);
+    display: flex;
+     justify-content: space-between;
+}
+.categorias{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px; 
+     
+}
+.discatego{
+    margin: 10px;
+    display: flex;
+    border-color: solid #f8f9fa;
+}
+.checkecatego{
+    margin: 10px
+}
+.eventcont{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+}
+
+.detallesevento{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.info-details > h1{
+    font-size: 4rem;
+    transition: .3s ease;
+}
+
+.info-details > h1:hover{
+    font-size: 4.5rem;
+
+}
+
+.info-details > p{
+    font-size: 2rem;
+    transition: .3s ease;
+}
+.info-details > p:hover{
+    font-size: 2.3rem;
+}
+
+
+
+#mainconcert{
+    height: 70vh;
+    display: flex; 
+    align-items: center;
+    margin: 10px;
+
+   
+}
+
+.contenedorimg{
+    width: 50%;
+    background: var(--border-color);
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border-color: #000102;
+}
+
+.detallesevento-contenedor{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    border:solid 1px black
+   
+}
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 539px){
+    :root{
+        font-size: 10px;
+    }
+    
+    footer{
+        margin-top: 1rem;
+    }
+    a{
+    height: 10%;
+    }
+    .icon{
+        width: 30px;
+    }
+    .main-contact{
+        height: 90vh;
+    }
+nav{
+    width: 95%
+    
+    ;
+}
+    
+.homebar2{
+        font-size: 10px;
+       
+
+    }
+    
+    table{
+
+        width: 90%;
+    }
+    th{
+        font-size: .7rem;
+    }
+    td{
+        font-size: 1rem;
+    }
+
+    #mainconcert{
+        height: 70%;
+        margin: 2px;
+    }
+    
+    }
+    .barradet{
+        font-size: 10px;
+    }
+    .eventcont{
+        padding: 0%;
+        flex-wrap: wrap;
+        margin: 1rem;
+    }
+    
 
 
