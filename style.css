@@ -1,0 +1,154 @@
+
+.pink-btn {
+    background-color: rgb(219, 16, 112);
+    border-color: pink;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgb(219, 16, 112);
+}
+
+.arrow-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 4rem;
+    justify-content:right ;
+    margin-block-end: auto;
+
+}
+
+.logo {
+    height: 50px;
+}
+
+
+
+
+.arrow-btn {
+
+    color: #f9f9f9;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+.barh2 {
+    color: #f9f9f9;
+    font-size: 50px;
+
+
+
+}
+
+a {
+
+    color: #f8f9fa;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    align-items: ;
+}
+
+.pink-btn {
+    color: #f9f9f9;
+}
+
+body {
+    background-image: url(./images/bbblurry.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+    
+
+
+}
+
+footer {
+        background-color: rgb(202, 49, 133);
+        display: flex;
+        margin-top: auto;
+        padding: 10px 20px;
+        
+      }
+
+.icon {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+      }
+      .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px;
+        background-color: #000102;
+        
+      }
+      .form-input {
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+      }
+      .form-submit-button {
+        width: 50%;
+        padding: 10px;
+        background-image: url(./images/hhholographic.jpg);
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        cursor: pointer;
+      }      
+      .btn-info btn-block{
+        background-color: black;
+      }
+.main-stats{
+        height: 77vh;
+        border: solid #000102;
+    }
+    
+.container-table{
+        display: flex;
+        justify-content: center;       
+       
+    }
+    
+table{
+        width: 60%;
+        border: solid #07090a;
+        column-rule-style: double;
+        background-image: url(./images/hhholographic.jpg);
+        border-collapse: separate black;
+        display: flex;
+       
+        align-items:center ;
+
+        
+
+    }
+    td{
+        border: solid black;
+        
+
+    }
+    th{
+        font-size: 20px;
+        background-color: #f9f9f9;
+    }
+
+
+
